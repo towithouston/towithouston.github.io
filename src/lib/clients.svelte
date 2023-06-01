@@ -2,6 +2,7 @@
 	import ImageLoader from './Image/ImageLoader.svelte';
 	import { scale } from 'svelte/transition';
 	import { inview } from 'svelte-inview';
+	import { base } from '$app/paths';
 
 	let isInView;
 
@@ -15,13 +16,13 @@
 	import 'swiper/css/autoplay';
 
 	const images = [
-		'assets/img/clients/copeco.png',
-		'assets/img/clients/cocesna.png',
-		'assets/img/clients/insmet.png',
-		'assets/img/clients/geci.png',
-		'assets/img/clients/ideam.jpg',
-		'assets/img/clients/insivumeh.jpg',
-		'assets/img/clients/inameh.png'
+		`${base}/assets/img/clients/copeco.png`,
+		`${base}/assets/img/clients/cocesna.png`,
+		`${base}/assets/img/clients/insmet.png`,
+		`${base}/assets/img/clients/geci.png`,
+		`${base}/assets/img/clients/ideam.jpg`,
+		`${base}/assets/img/clients/insivumeh.jpg`,
+		`${base}/assets/img/clients/inameh.png`
 	];
 </script>
 

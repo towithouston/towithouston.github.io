@@ -7,7 +7,7 @@ const config = {
 	kit: {
 		adapter: adapter(),
         paths: {
-            base: dev ? '' : '/build',
+            assets: dev ? '' : 'https://towithouston.github.io/build',
         },
 		appDir: 'internal'
 	}

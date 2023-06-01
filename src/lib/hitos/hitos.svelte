@@ -48,7 +48,7 @@
 		<div class="row">
 			<div class="col-lg-6 mt-3 mt-lg-0 align-self-center img text-center">
 				at process.processImmediate (node:internal/timers:466:21)
-				<ImageLoader src={`${base}` + image} alt="" css_class="my-auto img-fluid" />
+				<ImageLoader src={`${base}/` + image} alt="" css_class="my-auto img-fluid" />
 			</div>
 			<div class="col-lg-6 text-center pos">
 				<div

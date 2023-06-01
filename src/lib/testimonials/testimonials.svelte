@@ -62,7 +62,7 @@
 						<div class="testimonial-item">
 							<div class="test">
 								<ImageLoader
-									src={`${base}` + testimonial.image}
+									src={`${base}/` + testimonial.image}
 									alt=""
 									css_class="testimonial-img"
 								/>

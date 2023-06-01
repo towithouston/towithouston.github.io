@@ -7,17 +7,17 @@
 
 	const items = [
 		{
-			image: `${base}/assets/img/portfolio/portfolio-1.jpg`,
+			image: 'assets/img/portfolio/portfolio-1.jpg',
 			title: 'App 1',
 			category: 'App'
 		},
 		{
-			image: `${base}/assets/img/portfolio/portfolio-2.jpg`,
+			image: 'assets/img/portfolio/portfolio-2.jpg',
 			title: 'Web 1',
 			category: 'Web'
 		},
 		{
-			image: `${base}/img/portfolio/portfolio-3.jpg`,
+			image: 'assets/img/portfolio/portfolio-3.jpg',
 			title: 'Web 2',
 			category: 'Web'
 		}
@@ -55,7 +55,12 @@
 			{#each items as item}
 				<div class="col-lg-4 col-md-6 portfolio-item filter-{item.category.toLowerCase()}">
 					<div class="portfolio-wrap">
-						<ImageLoader on:load={onload} src={item.image} alt="" css_class={'img-fluid'} />
+						<ImageLoader
+							on:load={onload}
+							src={`${base}/` + item.image}
+							alt=""
+							css_class={'img-fluid'}
+						/>
 						<div class="portfolio-info">
 							<h4>{item.title}</h4>
 							<p>{item.category}</p>

@@ -2,7 +2,6 @@ node_modules
 changelog.txt
 old.html
 package-lock.json
-package.json
 portfolio-details.html
 Readme.txt
 webpack.config.js

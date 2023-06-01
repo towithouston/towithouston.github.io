@@ -3,6 +3,7 @@
 
 	import Plus from 'svelte-material-icons/Plus.svelte';
 	import Link from 'svelte-material-icons/Link.svelte';
+	import { base } from '$app/paths';
 
 	const items = [
 		{
@@ -11,7 +12,7 @@
 			category: 'App'
 		},
 		{
-			image: `${base}/assets/img/portfolio/portfolio-2.jpg'`,
+			image: `${base}/assets/img/portfolio/portfolio-2.jpg`,
 			title: 'Web 1',
 			category: 'Web'
 		},

@@ -8,7 +8,8 @@ const config = {
 		adapter: adapter(),
         paths: {
             base: dev ? '' : '/towithouston',
-        }
+        },
+		appDir: 'internal'
 	}
 };
 

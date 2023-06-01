@@ -3,7 +3,7 @@
 	import ArrowUp from 'svelte-material-icons/ArrowUp.svelte';
 	import '../css/bootstrap.css';
 
-	// import 'assets/css/style.css';
+	// import `${base}/assets/css/style.css';
 </script>
 
 <Header />

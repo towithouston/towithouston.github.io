@@ -6,17 +6,17 @@
 
 	const items = [
 		{
-			image: 'assets/img/portfolio/portfolio-1.jpg',
+			image: `${base}/assets/img/portfolio/portfolio-1.jpg`,
 			title: 'App 1',
 			category: 'App'
 		},
 		{
-			image: 'assets/img/portfolio/portfolio-2.jpg',
+			image: `${base}/assets/img/portfolio/portfolio-2.jpg'`,
 			title: 'Web 1',
 			category: 'Web'
 		},
 		{
-			image: 'assets/img/portfolio/portfolio-3.jpg',
+			image: `${base}/img/portfolio/portfolio-3.jpg`,
 			title: 'Web 2',
 			category: 'Web'
 		}

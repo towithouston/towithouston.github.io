@@ -4,6 +4,7 @@
 	import { Researchgate, Linkedin, Wordpress } from 'svelte-simples';
 
 	import data from './team.json';
+	import { base } from '$app/paths';
 
 	const members = data.members;
 </script>
@@ -24,7 +25,7 @@
 				<div class="col-lg-3 col-md-6 d-flex align-items-stretch">
 					<div class="member" data-aos="fade-up" data-aos-delay="100">
 						<div class="member-img">
-							<ImageLoader src={member.image} alt="" css_class={'img-fluid'} />
+							<ImageLoader src={`${base}/` + member.image} alt="" css_class={'img-fluid'} />
 							<div class="social">
 								{#if member.linkedin}
 									<a href={member.linkedin}><Linkedin size="1em" color="white" /></a>

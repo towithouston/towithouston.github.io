@@ -14,6 +14,7 @@
 	import QuoteOpen from 'svelte-material-icons/FormatQuoteOpen.svelte';
 
 	import data from './testimonials.json';
+	import { base } from '$app/paths';
 
 	const testimonials = data.testimonials;
 
@@ -60,7 +61,11 @@
 					<div class="testimonial-wrap">
 						<div class="testimonial-item">
 							<div class="test">
-								<ImageLoader src={testimonial.image} alt="" css_class="testimonial-img" />
+								<ImageLoader
+									src={`${base}` + testimonial.image}
+									alt=""
+									css_class="testimonial-img"
+								/>
 								<h3>{testimonial.name}</h3>
 								<h4>{testimonial.position}</h4>
 							</div>

@@ -1,8 +1,8 @@
 <script>
 	import EmoticonHappy from 'svelte-material-icons/EmoticonHappy.svelte';
-	import FileDocument from 'svelte-material-icons/FileDocument.svelte';
-	import Headset from 'svelte-material-icons/Headset.svelte';
-	import Group from 'svelte-material-icons/Group.svelte';
+	import Wrench from 'svelte-material-icons/Wrench.svelte';
+	import TruckTrailer from 'svelte-material-icons/TruckTrailer.svelte';
+	import AccountGroup from 'svelte-material-icons/AccountGroup.svelte';
 
 	import { fly } from 'svelte/transition';
 	import { inview } from 'svelte-inview';
@@ -13,24 +13,24 @@
 
 	const items = [
 		{
-			count: { count: 232 },
+			count: { count: 584 },
 			icon: EmoticonHappy,
-			text: 'Happy Clients'
+			text: 'Clientes Satisfechos'
 		},
 		{
-			count: { count: 521 },
-			icon: FileDocument,
-			text: 'Projects'
+			count: { count: 1608 },
+			icon: Wrench,
+			text: 'Órdenes de servicio'
 		},
 		{
-			count: { count: 1463 },
-			icon: Headset,
-			text: 'Hours Of Support'
+			count: { count: 34 },
+			icon: TruckTrailer,
+			text: 'Remolques en renta'
 		},
 		{
-			count: { count: 18 },
-			icon: Group,
-			text: 'Hard Workers'
+			count: { count: 6 },
+			icon: AccountGroup,
+			text: 'Trabajadores'
 		}
 	];
 </script>

@@ -1,77 +1,65 @@
 <script>
 	import ImageLoader from './Image/ImageLoader.svelte';
 
-	import Cog from 'svelte-material-icons/CogOutline.svelte';
-	import ApplicationBracesOutline from 'svelte-material-icons/ApplicationBracesOutline.svelte';
-	import ChartAreaspline from 'svelte-material-icons/ChartAreaspline.svelte';
-	import SchoolOutline from 'svelte-material-icons/SchoolOutline.svelte';
+	import TruckTrailer from 'svelte-material-icons/TruckTrailer.svelte';
+	import Wrench from 'svelte-material-icons/Wrench.svelte';
+	import SwapHorizontal from 'svelte-material-icons/SwapHorizontal.svelte';
+	import WrenchClock from 'svelte-material-icons/WrenchClock.svelte';
 	import CheckAll from 'svelte-material-icons/CheckAll.svelte';
 	import { base } from '$app/paths';
 
 	const tabs = [
 		{
-			icon: Cog,
+			icon: TruckTrailer,
 			css_class: ' active show',
-			label: 'Servicios tecnológicos',
-			title: 'Servicios tecnológicos de radar',
+			label: 'Servicio de alquiler',
+			title: 'Servicio de alquiler de remolques para Hot Shot',
 			image: `${base}/assets/img/Lineas1.Hardware.JPG`,
-			body: 'TOWIT desde 1990 tiene dominio completo de los sistemas de un radar meteorológico: sistema de energía primaria, transmisor, receptor, sistema de antena, procesador de señales y controlador del radar.',
+			body: 'En Towit Houston usted puede alquilar un remolque para dedicarse al transporte de envío rápido (Hot Shot).',
 			bullets: [
-				'Mantenimientos preventivos y correctivos a radares meteorológicos',
-				'Montaje de radares meteorológicos fabricados por terceros',
-				'Diseño, fabricación y montaje a pedido de un radar meteorológico',
-				'Organización de un sistema de servicio técnico',
-				'Modernización de un radar completo o de algunas de sus partes',
-				'Asistencia técnica remota 24/7/365 a radares meteorológicos',
-				'Medición de la dosis de microondas radiada en el entorno de un radar'
+				'Alquilar un remolque es menos arriesgado que comprarse uno',
+				'Ofrecemos un mantenimiento sin costo en la labor cada 90 días',
+				'Remolques totalmentes reparados con gomas nuevas o seminuevas, listos para entrega inmediata'
 			]
 		},
 		{
-			icon: ApplicationBracesOutline,
+			icon: Wrench,
 			css_class: '',
-			label: 'Servicios informáticos',
-			title: 'Servicios informáticos de radar',
+			label: 'Servicio de reparación',
+			title: 'Servicio de reparación de todo tipo de remolques y camionetas',
 			image: `${base}/assets/img/Linea2.Software2.JPG`,
-			body: 'TOWIT desde 1988 ha desarrollado software propietario para la adquisición y procesamiento de la información de radar, así como para el control de todos los procesos en el radar.',
+			body: 'Towit Houston ejecuta reparaciones completas de remolques y camionetas, lo mismo la parte mecánica que las partes eléctricas. Nuestros servicios más populares son:',
 			bullets: [
-				'Instalación y adaptación del software libre NEXRAD-ORPG del USA-NWS para trabajar a partir de la información obtenida por cualquier radar meteorológico',
-				'Instalación y adaptación del software libre TITAN de NCAR para trabajar a partir de la información obtenida por cualquier radar meteorológico',
-				'Desarrollo e implementación de un software de control a la medida de cualquier radar (software libre, IoT)',
-				'Desarrollo e implementación de software libre para el procesamiento de las señales de radar',
-				'Sistema de manipulación de datos primarios archivados'
+				'Cambio de frenos eléctricos por hidráulicos',
+				'Cancelation EGR',
+				'Montaje de goma',
+				'Rectificación de tamboras',
+				'Alineacion de remolque'
 			]
 		},
 		{
-			icon: ChartAreaspline,
+			icon: SwapHorizontal,
 			css_class: '',
-			label: 'Servicios de aplicación',
-			title: 'Servicios de aplicaciones de radar',
+			label: 'Modificación de remolques',
+			title: 'Servicio de modificación de remolques',
 			image: `${base}/assets/img/Línea3.Aplicación.jpg`,
-			body: 'A partir del año 2008 TOWIT asume el trabajo de vigilancia meteorológica por radar basado en las más modernas técnicas de la Meteorología Radárica y desarrolla métodos de análisis y presentación de la información de radar.',
+			body: 'En Towit Houston le hacemos modificaciones a sus remolques para que pueda sacar el máximo de ellos, las modificaciones más comunes son:',
 			bullets: [
-				'Organización de un servicio de vigilancia de tormentas por radar',
-				'Organización de un servicio de estimación de las precipitaciones por radar',
-				'Servicio de detección y seguimiento de tormentas tropicales',
-				'Monitoreo remoto de la calidad de la información de una red de radares',
-				'Organización de monitoreo por radar para la agricultura y la aviación',
-				'Monitoreo del cambio climático por medio de información de radar'
+				'Cambio del tipo Low boy al tipo Flat bed para un áximo aprovechamiento del espacio de carga',
+				'Alargamiento de 36 pies a 40 pies para poder acceder a este formato de contenedores',
+				'Aumento del número de ejes para soportar cargas más pesadas'
 			]
 		},
 		{
-			icon: SchoolOutline,
+			icon: WrenchClock,
 			css_class: '',
-			label: 'Servicios de capacitación',
-			title: 'Servicios de capacitación y asesoría',
+			label: 'Servicio de mantenimiento',
+			title: 'Servicio de mantenimiento de todo tipo de remolques y camionetas',
 			image: `${base}/assets/img/Linea4.Capacitación.jpg`,
-			body: 'TOWIT tiene una larga experiencia en el entrenamiento y la capacitación del personal de servicio técnico y del personal de la explotación de la información de radar.',
+			body: 'En Towit Houston somos especialistas en ejecutar mantenimientos a todos los sistemas de los  remolques y las camionetas. Nuestros mantenimientos más populares son:',
 			bullets: [
-				'Asesoría para la adquisición de radares meteorológicos',
-				'Confección de especificaciones técnicas para la adquisición de un radar',
-				'Selección de la ubicación de un radar meteorológico',
-				'Cursos de entrenamiento presencial (servicio técnico, explotación de radar)',
-				'Cursos de Tecnologías de Radar y métodos de Meteorología de Radar',
-				'Tutoría de tesis de maestría o doctorado en temas de Meteorología de Radar o Tecnologías de Radar',
-				'Cursos a distancia en temáticas específicas de Radares Meteorológicos'
+				'Mantenimiento a ejes',
+				'Revision de cableado de luces de remolque',
 			]
 		}
 	];

@@ -23,7 +23,7 @@
 	<div class="container d-flex align-items-center">
 		<a href="index.html" class="logo me-2"><img src={logo} alt="" /></a>
 		<h1 class="logo me-auto">
-			<a href="index.html"><span>TOWIT</span></a>
+			<a href="index.html"><span>Towit Houston</span></a>
 		</h1>
 
 		<nav id="navbar" class="navbar {nav_class} order-last order-lg-0">

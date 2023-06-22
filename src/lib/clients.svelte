@@ -16,13 +16,13 @@
 	import 'swiper/css/autoplay';
 
 	const images = [
-		`${base}/assets/img/clients/copeco.png`,
-		`${base}/assets/img/clients/cocesna.png`,
-		`${base}/assets/img/clients/insmet.png`,
-		`${base}/assets/img/clients/geci.png`,
-		`${base}/assets/img/clients/ideam.jpg`,
-		`${base}/assets/img/clients/insivumeh.jpg`,
-		`${base}/assets/img/clients/inameh.png`
+		`${base}/assets/img/clients/bigtex.png`,
+		`${base}/assets/img/clients/delco.webp`,
+		`${base}/assets/img/clients/dexter.webp`,
+		`${base}/assets/img/clients/gatormade.jpg`,
+		`${base}/assets/img/clients/lamar.svg`,
+		`${base}/assets/img/clients/Load-Trail.jpg`,
+		`${base}/assets/img/clients/pj.png`
 	];
 </script>
 

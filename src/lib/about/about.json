@@ -1,27 +1,27 @@
 {
     "header": {
         "title": "¿Qué nos distingue?",
-        "body": "Por más de 30 años hemos brindado soluciones tecnológicas para radares meteorológicos, cubriendo una gran variedad de fabricantes. Hemos desarrollado productos de hardware y software para redes de radares en varios países."
+        "body": "Tenemos dos tipos de remolques para alquilar: Flatbed y Mini 5. Hacemos todo tipo de reparaciones, modificaciones y mantenimientos a remolques y camionetas. Si usted llega a Towit Houston con un problema, de seguro se va sin él."
     },
     "highlights": [{
-            "icon": "LayersTripleOutline",
-            "title": "Integralidad",
-            "body": "Soluciones integrales desde las microondas hasta el análisis de la información y el aviso de fenómenos peligrosos para cualquier tipo de radar."
+            "icon": "ClockFast",
+            "title": "Inmediatez",
+            "body": "Cuando usted llega a nosotros con algún tipo de problema eléctrico o mecánico, de inmediato los especialistas de Towit Houston le hacen un diagnóstico y una cotización. Si resulta de su conveniencia, los especialistas comienzan a trabajar de inmediato para lograr solucionarlo en el mismo día o al día siguiente."
         },
         {
-            "icon": "Cog",
-            "title": "Sostenibilidad",
+            "icon": "ShieldCheckOutline",
+            "title": "Soluciones robustas",
             "body": "Soluciones sostenibles, flexibles y adaptativas ante los cambios tecnológicos que ocurren al paso del tiempo. Permiten la modificación y modernización continua y permanente del equipamiento."
         },
         {
-            "icon": "LockOpen",
-            "title": "Soberanía",
-            "body": "Soluciones sostenibles, flexibles y adaptativas ante los cambios tecnológicos que ocurren al paso del tiempo. Permiten la modificación y modernización continua y permanente del equipamiento."
+            "icon": "CheckDecagramOutline",
+            "title": "Calidad",
+            "body": "En Towit Houston siempre le ofreceremos la sustitución de las partes dañadas por partes nuevas de fabricantes confiables, probados por nuestros especialistas, que le garantizarán larga vida y funcionamiento fiable."
         },
         {
-            "icon": "Leaf",
-            "title": "Eficiencia",
-            "body": "Soluciones energéticamente eficientes y eficaces en el logro de los objetivos."
+            "icon": "CashCheck",
+            "title": "Precios módicos",
+            "body": "Ofrecemos la mejor cotización que usted podrá encontrar en los Estados Unidos. Nos encargamos del servicio y le ofrecemos las partes de recambio sin que tenga que salir a buscarlas en otra parte."
         }
     ]
 }

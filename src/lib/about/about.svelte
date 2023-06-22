@@ -1,21 +1,21 @@
 <script>
-	import Leaf from 'svelte-material-icons/Leaf.svelte';
-	import LockOpen from 'svelte-material-icons/LockOpen.svelte';
-	import LayersTripleOutline from 'svelte-material-icons/LayersTripleOutline.svelte';
-	import Cog from 'svelte-material-icons/CogOutline.svelte';
+	import CashCheck from 'svelte-material-icons/CashCheck.svelte';
+	import CheckDecagramOutline from 'svelte-material-icons/CheckDecagramOutline.svelte';
+	import ClockFast from 'svelte-material-icons/ClockFast.svelte';
+	import ShieldCheckOutline from 'svelte-material-icons/ShieldCheckOutline.svelte';
 
 	const ICONS = {
-		LayersTripleOutline: LayersTripleOutline,
-		Cog: Cog,
-		LockOpen: LockOpen,
-		Leaf: Leaf
+		ClockFast: ClockFast,
+		ShieldCheckOutline: ShieldCheckOutline,
+		CheckDecagramOutline: CheckDecagramOutline,
+		CashCheck: CashCheck
 	};
 
 	import { inview } from 'svelte-inview';
 	import { fly, fade } from 'svelte/transition';
 	import { quintOut } from 'svelte/easing';
 
-	let isInView;
+	let isInView=false;
 
 	import about from './about.json';
 </script>

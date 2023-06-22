@@ -24,14 +24,12 @@
                 class="row"
             >
                 <div in:scale={{ delay: 250, duration: 1000 }} class="col-xl-7">
-                    <h1>Hacia la independencia tecnológica en los radares</h1>
+                    <h1>Soluciones para hotshot</h1>
                     <h2>
-                        Somos un equipo de experimentados ingenieros creando
-                        soluciones tecnológicas para los radares meteorológicos
+                        Somos un grupo de jóvenes de especialidades eléctricas 
+                        y mecánicas dedicados al alquiler, reparación, 
+                        modificación y mantenimiento de remolques para hotshot.
                     </h2>
-                    <!-- <h1>Smarter weather radar network with TOWIT</h1>
-				<h2>We are team of experienced engineers creating technology solutions for weather radars</h2> -->
-                    <!-- <a href="#about" class="btn-get-started scrollto">Get Started</a> -->
                 </div>
             </div>
         {/if}

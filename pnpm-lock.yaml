@@ -21,7 +21,7 @@ dependencies:
     specifier: ^0.7.3
     version: 0.7.3(svelte@3.59.1)
   swiper:
-    specifier: ^8.4.6
+    specifier: 8.4.6
     version: 8.4.6
 
 devDependencies:

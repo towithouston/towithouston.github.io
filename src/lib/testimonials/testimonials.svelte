@@ -29,9 +29,12 @@
 		<div class="section-title">
 			<h2>Testimonios</h2>
 			<p>
-				Algunas personas con altas responsabilidades han comentado sobre el trabajo de TOWIT en
-				todos estos años. Tenemos demás el honor de haber sido la casa y escuela de muchos
-				excelentes ingenieros que hoy trabajan por mundo.
+				Aquí tienen las opiniones de algunos de nuestros satisfechos clientes. 
+				Sus comentarios y experiencias son muy valiosos para nosotros, 
+				ya que nos permiten mejorar nuestro servicio y adaptarnos a las necesidades 
+				de nuestros clientes. Les agradecemos profundamente su confianza y estamos 
+				comprometidos a mantener ese nivel de satisfacción a lo largo del tiempo. 
+				Esperamos seguir contando con ustedes en el futuro.
 			</p>
 		</div>
 		<Swiper

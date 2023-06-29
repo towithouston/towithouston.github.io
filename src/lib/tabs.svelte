@@ -14,7 +14,7 @@
 			css_class: ' active show',
 			label: 'Servicio de alquiler',
 			title: 'Servicio de alquiler de remolques para Hot Shot',
-			image: `${base}/assets/img/Lineas1.Hardware.JPG`,
+			image: `${base}/assets/img/rent.png`,
 			body: 'En Towit Houston usted puede alquilar un remolque para dedicarse al transporte de envío rápido (Hot Shot).',
 			bullets: [
 				'Alquilar un remolque es menos arriesgado que comprarse uno',
@@ -27,7 +27,7 @@
 			css_class: '',
 			label: 'Servicio de reparación',
 			title: 'Servicio de reparación de todo tipo de remolques y camionetas',
-			image: `${base}/assets/img/Linea2.Software2.JPG`,
+			image: `${base}/assets/img/repair.jpg`,
 			body: 'Towit Houston ejecuta reparaciones completas de remolques y camionetas, lo mismo la parte mecánica que las partes eléctricas. Nuestros servicios más populares son:',
 			bullets: [
 				'Cambio de frenos eléctricos por hidráulicos',
@@ -42,7 +42,7 @@
 			css_class: '',
 			label: 'Modificación de remolques',
 			title: 'Servicio de modificación de remolques',
-			image: `${base}/assets/img/Línea3.Aplicación.jpg`,
+			image: `${base}/assets/img/modify.png`,
 			body: 'En Towit Houston le hacemos modificaciones a sus remolques para que pueda sacar el máximo de ellos, las modificaciones más comunes son:',
 			bullets: [
 				'Cambio del tipo Low boy al tipo Flat bed para un áximo aprovechamiento del espacio de carga',
@@ -55,7 +55,7 @@
 			css_class: '',
 			label: 'Servicio de mantenimiento',
 			title: 'Servicio de mantenimiento de todo tipo de remolques y camionetas',
-			image: `${base}/assets/img/Linea4.Capacitación.jpg`,
+			image: `${base}/assets/img/maintenance.jpeg`,
 			body: 'En Towit Houston somos especialistas en ejecutar mantenimientos a todos los sistemas de los  remolques y las camionetas. Nuestros mantenimientos más populares son:',
 			bullets: [
 				'Mantenimiento a ejes',

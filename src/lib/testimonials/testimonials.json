@@ -1,45 +1,27 @@
 {
     "testimonials": [{
-            "name": "Inés María Chapman Waugh",
-            "position": "Vice Primera Ministra de la República de Cuba",
-            "image": "assets/img/testimonials/ines.jpg",
-            "body": "Trabajadores innovadores que aseguran el funcionamiento de los radares metereológicos, de la alerta temprana."
+            "name": "Rubén Martínez",
+            "position": "Chofer de Hot Shot, México",
+            "image": "assets/img/testimonials/testimonial1.jpg",
+            "body": "La atención y el servicio fueron excelentes. No tuve ningún problema con el tráiler que alquilé para mi viaje."
         },
         {
-            "name": "Elba Rosa Pérez Montoya",
-            "position": "Ministra de Ciencia, Tecnología y Medio Ambiente",
-            "image": "assets/img/testimonials/elbarosa.jpg",
-            "body": "Se avanza en la sostenibilidad  de la Red de Radares Meteorológicos del país, llegaremos a tener el radar Cubano 100% fruto del talento y profesionalidad de los científico y trabajadores del Grupo de Radares de Camagüey."
+            "name": "Manuel López",
+            "position": "Chofer de Hot Shot, Colombia",
+            "image": "assets/img/testimonials/testimonial2.jpg",
+            "body": "El arreglo del remolque fue rápido y eficiente. Quedé muy contento con el trabajo que hicieron."
         },
         {
-            "name": "José Fidel Santana Nuñez",
-            "position": "Viceministro Primero de Ciencia, Tecnología y Medio Ambiente",
-            "image": "assets/img/testimonials/josefidel.jpg",
-            "body": "Equipo que demuestra que la genialidad y creatividad está en todas partes y que lo de \"Nacional\" no es privativo de las Capitales. Algún día haremos justicia a este equipo y honrarnos todos con el tributo que desde hace tiempo merecen."
+            "name": "Ana Fernández",
+            "position": "Chofer de Hot Shot, Venezuela",
+            "image": "assets/img/testimonials/testimonial3.jpg",
+            "body": "La asistencia en la carretera fue muy útil. Me ayudaron rápidamente y pudimos continuar nuestro viaje sin mayores problemas."
         },
         {
-            "name": "Armando Rodríguez",
-            "position": "Viceministro de Ciencia, Tecnología y Medio Ambiente",
-            "image": "assets/img/testimonials/armando.jpg",
-            "body": "Una contribución de Ciencia y Tecnología e innovación cubanas al Medio Ambiente: la automatización y dopplerización de radares cubanos!!"
-        },
-        {
-            "name": "Enrique Castellanos Abella",
-            "position": "Director de Geología, Ministerio de Energía y Minas",
-            "image": "assets/img/testimonials/enrique.jpg",
-            "body": "Cuba cuenta con un sistema de radares meterorólogicos para investigar y monitorear en tiempo real los ciclones y huracanes. Está infraestructura la mantienen especialistas cubanos."
-        },
-        {
-            "name": "Yasser Llanes Jorge",
-            "position": "Analista de redes en IP4B Télécom",
-            "image": "assets/img/testimonials/yasser.jpg",
-            "body": "He trabajado en este equipo durante años y su conocimiento, servicio y calidad humana son impecables."
-        },
-        {
-            "name": "Dario Jorge Vázquez Arguija",
-            "position": "Ingeniero de Software en ThoughtWorks",
-            "image": "assets/img/testimonials/dario.jpg",
-            "body": "Trabajar en TOWIT fue una oportunidad extraordinaria para mi carrera profesional, incursioné en automatización industrial y geolocalización. Me impregnaron el pragmatismo y saber enfocar el esfuerzo a resultados concretos."
+            "name": "Luis González",
+            "position": "Chofer de Hot Shot, Cuba",
+            "image": "assets/img/testimonials/testimonial4.jpg",
+            "body": "Las piezas de repuesto originales y la mano de obra profesional hicieron que mi tráiler quede como nuevo de nuevo. Muy recomendable."
         }
     ]
 }

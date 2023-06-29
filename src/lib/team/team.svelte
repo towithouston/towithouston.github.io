@@ -1,7 +1,8 @@
 <script>
 	import ImageLoader from '../Image/ImageLoader.svelte';
 
-	import { Researchgate, Linkedin, Wordpress } from 'svelte-simples';
+	import { Whatsapp } from 'svelte-simples';
+	import Phone from 'svelte-material-icons/Phone.svelte';
 
 	import data from './team.json';
 	import { base } from '$app/paths';
@@ -14,10 +15,11 @@
 		<div class="section-title">
 			<h2>El equipo</h2>
 			<p>
-				Somos un equipo de ingenieros que combinamos la juventud y la experiencia en el campo de los
-				radares meteorológicos. Nuestros ingenieros están altamente cualificados y poseen resultados
-				tanto tecnológicos como científicos. Estamos comprometidos a trabajar juntos para ofrecer
-				soluciones innovadoras y de alta calidad.
+				Detrás del éxito de Towit Houston hay cuatro jóvenes trabajadores 
+				que ponen todo su esfuerzo diario para brindar el mejor servicio. 
+				Con su entusiasmo y profesionalismo, son los que hacen posible que 
+				Towit Houston brinde un excelente servicio y experiencia a todos 
+				sus clientes.
 			</p>
 		</div>
 		<div class="row">
@@ -27,14 +29,11 @@
 						<div class="member-img">
 							<ImageLoader src={`${base}/` + member.image} alt="" css_class={'img-fluid'} />
 							<div class="social">
-								{#if member.linkedin}
-									<a href={member.linkedin}><Linkedin size="1em" color="white" /></a>
+								{#if member.phone}
+									<a href={member.phone}><Phone size="1em" color="white" /></a>
 								{/if}
-								{#if member.wordpress}
-									<a href={member.wordpress}><Wordpress size="1em" color="white" /></a>
-								{/if}
-								{#if member.researchgate}
-									<a href={member.researchgate}><Researchgate size="1em" color="white" /></a>
+								{#if member.whatsapp}
+									<a href={member.whatsapp}><Whatsapp size="1em" color="white" /></a>
 								{/if}
 							</div>
 						</div>

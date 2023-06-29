@@ -1,5 +1,5 @@
 let base = "";
-let assets = "https://towithouston.github.io/build";
+let assets = base;
 const initial = { base, assets };
 function reset() {
   base = initial.base;

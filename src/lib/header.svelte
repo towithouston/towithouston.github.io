@@ -17,6 +17,10 @@
 			nav_class = '';
 		}
 	}
+	function close() {
+			icon = Menu;
+			nav_class = '';
+	}
 </script>
 
 <header id="header" class="fixed-top d-flex align-items-center">
@@ -29,29 +33,29 @@
 		<nav id="navbar" class="navbar {nav_class} order-last order-lg-0">
 			<ul>
 				<li>
-					<a on:click={toggle} class="nav-link scrollto active" href="#hero">Home</a>
+					<a on:click={close} class="nav-link scrollto active" href="#hero">Home</a>
 				</li>
 				<li>
-					<a on:click={toggle} class="nav-link scrollto" href="#about">Quienes somos</a>
+					<a on:click={close} class="nav-link scrollto" href="#about">Quienes somos</a>
 				</li>
 				<li>
-					<a on:click={toggle} class="nav-link scrollto" href="#tabs">Servicios</a>
+					<a on:click={close} class="nav-link scrollto" href="#tabs">Servicios</a>
 				</li>
 				<li>
-					<a on:click={toggle} class="nav-link scrollto" href="#portfolio">Portafolio</a>
+					<a on:click={close} class="nav-link scrollto" href="#portfolio">Catálogo</a>
 				</li>
 				<li>
-					<a on:click={toggle} class="nav-link scrollto" href="#team">Equipo</a>
+					<a on:click={close} class="nav-link scrollto" href="#team">Equipo</a>
 				</li>
 				<li>
 					<a
-						on:click={toggle}
-						href="https://meteoradares.wordpress.com/category/TOWIT/"
+						on:click={close}
+						href="https://orlandotowit.wordpress.com/"
 						target="blank">Blog</a
 					>
 				</li>
 				<li>
-					<a on:click={toggle} class="nav-link scrollto" href="#contact">Contacto</a>
+					<a on:click={close} class="nav-link scrollto" href="#footer">Contacto</a>
 				</li>
 			</ul>
 			<!-- svelte-ignore a11y-click-events-have-key-events -->

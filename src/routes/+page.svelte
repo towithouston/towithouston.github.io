@@ -23,7 +23,7 @@
 <About />
 <Count />
 <Tabs />
-<Team />
+<!-- <Team /> -->
 <Portfolio />
 <Testimonials />
 <Footer />
